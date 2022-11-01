@@ -21,6 +21,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a Python Script
-        run: python .github/workflows/example.py
+        run: python C:\Users\QT765KB\OneDrive - EY\Desktop\ex.py
 
     
