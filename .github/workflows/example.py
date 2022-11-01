@@ -5,7 +5,7 @@ def main():
   token = os.environ.get("AZURE_SECRET_TOKEN")
   if not token:
     raise RuntimeError("Not Azure SECRET provided")
-  print("All good, we got aan AZURE SECRET TOEKEN" + token)
+  print("All good, we got aan AZURE SECRET TOEKEN" + str(token))
   
 if __name__ == "__main__":
   main()
